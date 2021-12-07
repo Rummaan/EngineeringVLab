@@ -1,0 +1,51 @@
+.cbox{
+    height: 700px;
+    max-width: 1500px;
+    background-color: white;
+}
+
+.dbox{
+    border: 2px solid;
+    height: 700px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.column {
+    float: left;
+    width: 13.33%;
+    padding: 5px;
+    left: 100px;
+}
+  
+  /* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    left: 100px;
+}
+  
+#p1 {
+     display: none;
+}
+  
+#p2 {
+     display: none;
+}
+  
+#p3 {
+     display: none;
+}
+  
+#p4 {
+     display: none;
+}
+  
+#p5 {
+     display: none;
+}
+  
+#p6 {
+     display: none;
+}
